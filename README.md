@@ -12,7 +12,10 @@
   ModelMapper
   Process
 
-# sequenceDiagram
+# Process
+
+# 이용권 만료
+sequenceDiagram
     participant Batch
     participant DB
     Batch->>DB: 사용자별 이용권 조회
