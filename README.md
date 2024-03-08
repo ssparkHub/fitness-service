@@ -10,12 +10,8 @@
   JPA
   lombok
   ModelMapper
-  Process
 
-# Process
-
-# 이용권 만료
-sequenceDiagram
+# sequenceDiagram
     participant Batch
     participant DB
     Batch->>DB: 사용자별 이용권 조회
@@ -23,3 +19,4 @@ sequenceDiagram
     DB->>Batch: 사용자별 이용권 응답
     deactivate DB
     Batch->>DB: 이용권 만료 상태 변경
+
